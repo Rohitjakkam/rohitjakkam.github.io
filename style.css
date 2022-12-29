@@ -193,3 +193,36 @@
     .contact-section img {
         justify-content: start;
     }
+main {
+                                        background: #49404f;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        justify-content: space-between;
+                                    }
+                                    
+                                    @media (min-width: 600px) {
+                                        main {
+                                            flex-wrap: nowrap;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 600px) {
+                                        .column {
+                                            width: 50%;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 600px) {
+                                        main {
+                                            flex-wrap: nowrap;
+                                        }
+                                    }
+                                    
+                                    @media (min-width: 600px) {
+                                        main {
+                                            flex-wrap: nowrap;
+                                        }
+                                    }
+                                    img {
+                                        max-width: 100%;
+                                      }
