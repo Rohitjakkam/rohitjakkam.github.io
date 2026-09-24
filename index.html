@@ -1,141 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohit Jakkam</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;700&display=swap');
-    </style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohit Jakkam — AI Engineer</title>
+  <meta name="description" content="Rohit Jakkam — AI engineer building agentic systems, RAG pipelines, and LLM-powered applications." />
+  <meta name="theme-color" content="#0b0d10" />
+
+  <meta property="og:title" content="Rohit Jakkam — AI Engineer" />
+  <meta property="og:description" content="Building agentic systems, RAG pipelines, and LLM-powered applications." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rohitjakkam.github.io/" />
+  <meta property="og:image" content="https://rohitjakkam.github.io/profile.jpeg" />
+
+  <link rel="icon" href="logo11.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-   
-    <!-- nav bar -->
-    <nav>
-        <div class="container main-nav flex">
-            <a class="company-logo">
-                <img src="logo11.png" alt="logo">
-            </a>
-            <div class="nav-links">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-                <ul class="flex">
-                    <li>
-                        <a href="#about" class="hover-link">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/rohitjakkam/" class="hover-link">EXPERIENCE</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Rohitjakkam" class="hover-link">PROJECTS</a>
-                    </li>
-                    <li>
-                        <a href="https://rohitjakkam.hashnode.dev/" class="hover-link">BLOG</a>
-                    </li>
-                    <li>
-                        <a href="https://rohitjakkam.hashnode.dev/" class="hover-link">NEWSLETTER</a>
-                    </li>
-                    <li>
-                        <a href="mailto:rohitjakkam@gmail.com" class="hover-link">CONTACT</a>
-                    </li>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-mark">RJ</span>
+        <span class="brand-name">Rohit Jakkam</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
 
-                </ul>
-
-            </div>
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow">
+          <span class="dot"></span> Available for AI / agentic engineering work
+        </span>
+        <h1>
+          I build <span class="accent">agentic systems</span><br />
+          that actually ship.
+        </h1>
+        <p class="lede">
+          I'm Rohit — an AI engineer working on multi-agent orchestration, grounded RAG,
+          and LLM-powered products. Python &amp; TypeScript, FastAPI &amp; React, MCP, LangGraph,
+          Claude &amp; Bedrock in production.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">See projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
         </div>
-    </nav>
-    <header>
-        <div class="container header-section flex">
-
-            <div class="header-left">
-                <h1>
-                    Hey friends--
-                </h1>
-                <h2>I'm Rohit. I'm Software Developer, Cloud Computing enthusiast, CS Undergraduate and soon-to-be Blogger</h2>
-                <p>On this site you will get to know about me professionally and personally too by Blogs.</p>
-            </div>
-
-            <div class="header-right">
-                <img src="profile.jpeg" alt="profile">
-            </div>
-
-
+        <div class="social-row">
+          <a href="https://github.com/Rohitjakkam" aria-label="GitHub" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.57.11.78-.25.78-.55v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.77.12 3.06.74.81 1.19 1.83 1.19 3.09 0 4.41-2.7 5.38-5.27 5.67.41.35.77 1.05.77 2.13v3.16c0 .3.21.67.79.55A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/rohitjakkam/" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.86-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.86 3.36-1.86 3.6 0 4.26 2.37 4.26 5.45v6.3zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="https://twitter.com/jakkam_rohit" aria-label="Twitter / X" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2H21.5l-7.5 8.573L23 22h-6.8l-5.32-6.955L4.8 22H1.54l8.02-9.166L1 2h6.98l4.81 6.36L18.244 2zm-2.383 18h1.883L7.24 4H5.22l10.641 16z"/></svg>
+          </a>
+          <a href="mailto:rohitjakkam@gmail.com" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+          </a>
         </div>
-        <section id="about" class="container about-section flex">
-            <div class="about-left">
-                <img src="pro.jpeg" alt="portfolio">
-                <p>Recently went to Amdocs, Pune facility for SOCIO-MAKE-A-THON.
-                For 3 months long Social Project.</p>
-            </div>
-            <div class="about-right">
-                <h1>Let me introduce myself.</h1>
-                <h2>Rohit Jakkam</h2>
-                <p>
-                    leaves in Thane, Maharashtra, and Currently Studying in Pune, Maharashtra. origin from Andhra Pradesh.I am a sophomore doing Computer Engineering at D Y Patil University, Ambi.Learning, Exploring and Implementing software development and programming for
-                    the past 2 years.Explored and had fun in domains like Web Development, Web Applications, Cloud Computing,  DBMS, Computer Networking, Linux, Git/Github, and many more... I was a Top Contributor to Google Crowdsource Vocalize Campaign
-                    with 6000+ Contributions.
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-glow"></div>
+        <img src="profile.jpeg" alt="Portrait of Rohit Jakkam" />
+      </div>
+    </section>
 
-                </p>
-                <img src="pic0.jpeg" alt="pic0">
+    <section id="about" class="section container">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I spend my days designing multi-agent orchestrators, retrieval systems with
+          structured citations, and end-to-end tools that turn messy real-world data
+          into decisions. My work ranges from legal-domain assistants and document
+          intelligence to sensor-data analytics and production ETL/QA pipelines.
+        </p>
+        <p>
+          I ship the whole stack — Python / FastAPI on the backend, TypeScript / React
+          on the frontend, Docker and AWS Bedrock in production. Comfortable owning a
+          feature from data exploration through to a UI that a non-technical user can
+          actually use.
+        </p>
+        <ul class="facts">
+          <li><span class="fact-k">Focus</span><span class="fact-v">AI agents · RAG · applied LLMs</span></li>
+          <li><span class="fact-k">Stack</span><span class="fact-v">Python · TypeScript · FastAPI · React</span></li>
+          <li><span class="fact-k">Models</span><span class="fact-v">Claude · GPT · Bedrock · SenseVoice</span></li>
+          <li><span class="fact-k">Open to</span><span class="fact-v">AI / agent contracts &amp; collabs</span></li>
+        </ul>
+      </div>
+    </section>
 
+    <section id="projects" class="section container">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2>Selected projects</h2>
+      </div>
+      <div class="projects-grid">
+        <a class="card" href="https://github.com/Rohitjakkam/thinksource" target="_blank" rel="noopener">
+          <div class="card-top">
+            <h3>ThinkSource</h3>
+            <span class="tag">MCP · RAG</span>
+          </div>
+          <p>AI research &amp; knowledge hub with an in-house MCP for documents, web, and YouTube — inline previews and grounded answers.</p>
+          <span class="card-cta">View repo <span class="arrow">-&gt;</span></span>
+        </a>
+        <a class="card" href="https://github.com/Rohitjakkam/Nexus-Master-Agent-Orchestrator" target="_blank" rel="noopener">
+          <div class="card-top">
+            <h3>Nexus Orchestrator</h3>
+            <span class="tag">Multi-agent</span>
+          </div>
+          <p>Decomposes complex queries into subtasks, routes them to specialized agents, and synthesizes results into a coherent answer.</p>
+          <span class="card-cta">View repo <span class="arrow">-&gt;</span></span>
+        </a>
+        <a class="card" href="https://github.com/Rohitjakkam/Lexi-AI-Indian-Legal-Assistant" target="_blank" rel="noopener">
+          <div class="card-top">
+            <h3>Lexi-AI</h3>
+            <span class="tag">Legal · RAG</span>
+          </div>
+          <p>An AI assistant for the Indian legal ecosystem — answers with citations, retrieves documents, and drafts legal paperwork with safety guardrails.</p>
+          <span class="card-cta">View repo <span class="arrow">-&gt;</span></span>
+        </a>
+        <a class="card" href="https://github.com/Rohitjakkam/AI-Knowledge-Assistant-with-Citation" target="_blank" rel="noopener">
+          <div class="card-top">
+            <h3>Knowledge Assistant</h3>
+            <span class="tag">Citations · Chat</span>
+          </div>
+          <p>Ingest documents, chat to query them, and get answers grounded in the uploaded files with structured citations back to source.</p>
+          <span class="card-cta">View repo <span class="arrow">-&gt;</span></span>
+        </a>
+        <a class="card" href="https://github.com/Rohitjakkam/DocuIntelli-SaaS" target="_blank" rel="noopener">
+          <div class="card-top">
+            <h3>DocuIntelli</h3>
+            <span class="tag">Doc AI</span>
+          </div>
+          <p>Intelligent document processing for legal workflows — summarization, metadata extraction, and Q&amp;A generation from a single upload.</p>
+          <span class="card-cta">View repo <span class="arrow">-&gt;</span></span>
+        </a>
+        <a class="card" href="https://github.com/Rohitjakkam/AI-Prompt-Enhancer" target="_blank" rel="noopener">
+          <div class="card-top">
+            <h3>Prompt Enhancer</h3>
+            <span class="tag">Voice · LLM</span>
+          </div>
+          <p>Record a voice note, get a raw transcription, then let AI refine it into a detailed, effective prompt for generative models.</p>
+          <span class="card-cta">View repo <span class="arrow">-&gt;</span></span>
+        </a>
+      </div>
+      <p class="see-all">
+        <a href="https://github.com/Rohitjakkam?tab=repositories" target="_blank" rel="noopener">All repositories on GitHub -&gt;</a>
+      </p>
+    </section>
 
-            </div>
-        </section>
-        <div class="container path01 flex">
-            <div class="path-left">
-                <!-- <img src="learninpublic.png" alt="path1"> -->
-                <img src="learninpublic.png" alt="path1">
-
-            </div>
-            <div class="path-right">
-
-                <h2>Learn in Public</h2>
-                <p>This Concept I got to know from Kunal Kushwaha Developer Advocate at Civo. That Sharing on socials about what you attending, learning, Exploring, and Implementing everything by socializing makes you active in front of them how you are looking for in the future and unconditionally you are contributing to the community. via Linkedlin, Twitter, Blog, Youtube.
-                </p>
-            </div>
-
-
+    <section id="stack" class="section container">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2>Stack</h2>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-col">
+          <h4>Languages</h4>
+          <ul><li>Python</li><li>TypeScript</li><li>SQL</li></ul>
         </div>
-        <div class="container path02 flex">
-            <div class="path02-left">
-                <h2>Open Source</h2>
-                <p>Open source software can help to grow networks in several ways. First, open source software is often freely available for download, which means that more people can access and use the software. This can help to grow the network of users
-                    and developers working on the project, as more people are able to contribute their skills and resources. In addition, open source software is often developed and maintained by a community of volunteers, which can create a sense of
-                    collaboration and cooperation within the project. This can help to foster a sense of community and belonging among the project's contributors, which can in turn help to grow the network of people working on the project.
-
-
-                </p>
-            </div>
-            <div class="path02-right">
-                <img src="opensource.png" alt="opensorce">
-            </div>
+        <div class="stack-col">
+          <h4>AI / ML</h4>
+          <ul><li>LangChain / LangGraph</li><li>MCP</li><li>Anthropic Claude</li><li>OpenAI</li><li>AWS Bedrock</li><li>SenseVoice / FunASR</li></ul>
         </div>
-
-
-    </header>
-
-    <footer>
-        <div class="containter contact-section flex">
-            <a href="#" class="company-logo">
-                <img src="logo11.png" alt="companylogo">
-            </a>
-
-            <a href="https://github.com/Rohitjakkam">GITHUB</a>
-            <a href="https://www.linkedin.com/in/rohitjakkam/">LINKEDIN</a>
-            <a href="https://twitter.com/jakkam_rohit">TWITTER</a>
-            <a href="https://www.instagram.com/rohit__1102/?igshid=YmMyMTA2M2Y=">INSTAGRAM</a>
-            <a href="https://discord.gg/9WeqUCsD">DISCORD</a>
-            <a href="https://rohitjakkamconnect.slack.com">SLACK</a>
-
-
+        <div class="stack-col">
+          <h4>Backend</h4>
+          <ul><li>FastAPI</li><li>Django</li><li>Node</li><li>PostgreSQL</li><li>MySQL</li><li>Supabase</li></ul>
         </div>
-    </footer>
+        <div class="stack-col">
+          <h4>Frontend</h4>
+          <ul><li>React</li><li>Next.js</li><li>Vite</li><li>Streamlit</li></ul>
+        </div>
+        <div class="stack-col">
+          <h4>Infra</h4>
+          <ul><li>Docker</li><li>AWS (S3, Lambda, Bedrock)</li><li>Vercel</li></ul>
+        </div>
+      </div>
+    </section>
 
-  
-    <script src="https://kit.fontawesome.com/743e5eae3a.js" crossorigin="anonymous"></script>
+    <section id="writing" class="section container">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2>Writing</h2>
+      </div>
+      <p class="writing-copy">
+        I occasionally write about what I'm learning — agents, retrieval, and the messy
+        engineering realities of shipping LLM products.
+      </p>
+      <a class="btn btn-ghost" href="https://rohitjakkam.hashnode.dev/" target="_blank" rel="noopener">Read on Hashnode -&gt;</a>
+    </section>
+
+    <section id="contact" class="section container">
+      <div class="section-head">
+        <span class="section-num">05</span>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-card">
+        <h3>Have an idea, a role, or a hard problem?</h3>
+        <p>Drop a line — I read everything and reply to serious enquiries within a day or two.</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:rohitjakkam@gmail.com">rohitjakkam@gmail.com</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/rohitjakkam/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>&copy; <span id="year"></span> Rohit Jakkam</span>
+      <span>Built with plain HTML &amp; CSS · Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    const root = document.documentElement;
+    const stored = localStorage.getItem('theme');
+    if (stored) root.setAttribute('data-theme', stored);
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
